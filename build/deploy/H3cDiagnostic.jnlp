@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="H3cDiagnostic.jnlp">
+  <information>
+    <title>H3cDiagnostic</title>
+    <vendor>HealthcubedInc.paras</vendor>
+    <description>HcDiagnostic</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="H3cDiagnostic.jar" size="13333" download="eager" />
+    <jar href="libs\java-json.jar" size="84697" download="eager" />
+    <jar href="libs\json-simple-1.1.jar" size="16046" download="eager" />
+    <jar href="libs\jsr80-1.0.1.jar" size="27243" download="eager" />
+    <jar href="libs\jssc-2.8.0.jar" size="153562" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="com.h3diagnostics.mainapp.MainAppClass"  name="HcDiagnostic" />
+  <update check="background"/>
+</jnlp>
